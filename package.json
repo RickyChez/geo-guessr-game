@@ -1,0 +1,26 @@
+{
+  "name": "geo-guessr-game",
+  "version": "1.0.0",
+  "description": "A simple Node.js module to play a GeoGuessr-type game where you have to guess the location of a random image.",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RickyChez/geo-guessr-game.git"
+  },
+  "keywords": [
+    "geo",
+    "geoguessr",
+    "game",
+    "location",
+    "image"
+  ],
+  "author": "RickyChez",
+  "license": "MIT",
+  "dependencies": {
+    "image-geolocation": "^1.0.0",
+    "readline": "^1.3.0"
+  }
+}
